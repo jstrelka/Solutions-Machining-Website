@@ -18,7 +18,6 @@
             }
             div.div2_body1 {
                 background: linear-gradient(225deg, lightgray 45%, white 0%);
-                column-count: 2; column-fill: auto;
                 height: 500px;
             }
             div.div3_footer1 {
@@ -36,6 +35,7 @@
             h1.h1-1_header1 {
                 color: white;
                 font-weight: 700;
+                margin-left: 360px;
             }
             h2.h2-1_body1 {
                 color: Black;
@@ -43,8 +43,9 @@
             }
             h2.h2-2_body1 {
                 color: darkblue;
-                column-span: all;
                 font-size: 30pt; font-weight: 900;
+                margin-top: 0px;
+                padding-top: 20px;
                 text-align: center;
             }
             h2.h2-5_body1 {
@@ -56,16 +57,21 @@
             h2.h2-6_body1 {
                 color: white;
                 font-size: 20pt;
-                text-align: center;
+                margin-left: 90px;
+                text-align: left;
             }
             img.img1_header1 {
                 height: 150px;
-                padding: 0px; border: 5px solid blue; margin: 0px;
+                padding: 0px; border: 5px solid blue;
+                position: absolute;
+                top: 10px;
                 width: 200px;
             }
             img.img1_body1 {
                 height: 300px;
-                margin-left: 120px; margin-top: 35px;
+                margin-left: 950px; margin-top: 0px;
+                position: absolute;
+                top: 750px;
                 width: 450px
             }
             p.p1_body1 {
@@ -75,14 +81,14 @@
             p.p2_body1 {
                 color: darkblue;
                 font-size: 22pt; font-weight: 600;
-                margin-right: 35px;
+                margin-right: 700px;
                 text-align: right;
             }            
             p.p5_body1 {
                 color: white;
                 font-size: 15pt; font-weight: 700;
                 line-height: 2;
-                margin-left: 212px;
+                margin-left: 90px;
                 text-align: left;
             }
             table.table_footer1 {
@@ -102,8 +108,8 @@
             table.table3_body1 {
                 border: solid; border-collapse: collapse;
                 display: table;
-                margin-left: auto; margin-right: auto;               
-                width: 90%
+                margin-left: 50px;
+                width: 50%
             }
             td.td1_footer1 {
                 color: white;
@@ -203,7 +209,7 @@
         </div>
         <div class="div4_body1">
             <h2 class='h2-5_body1'>Our Location</h2>
-            <div id="googleMap" style="margin-left:100px;height:55%;"></div>
+            <div id="googleMap" style="margin-left:100px;height:55%;border:5px solid blue;;"></div>
             <script>
                 function myMap() {
                     var mapOptions = {
