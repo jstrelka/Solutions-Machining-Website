@@ -14,13 +14,12 @@
                 font-family: Helvetica, "open sans", "Times New Roman", serif;
             }
             div.div1_body1 {
-                background: linear-gradient(45deg, midnightblue 55%, white 0%);
-                column-count: 2;
-                height: 800px;
+                background: linear-gradient(55deg, midnightblue 55%, white 0%);
             }
             div.div2_body1 {
                 background: linear-gradient(225deg, #0073e6 52%, white 0%);
-                column-count: 2;
+                height: 600px;
+                padding: 0px; margin-bottom: 0px;
             }
             div.div3_footer1 {
                 height: 60px;
@@ -35,36 +34,40 @@
             }
             div.div6_body1 {
                 background-color: midnightblue;
+                padding: 0px; margin: 0px;
             }
             h1.h1-1_header1 {
                 color: white;
                 font-weight: 700;
+                margin-left: 220px;
             }
             h2.h2-1_body1 {
                 color: #b3b3b3;
                 font-size: 25pt; font-weight: 900;
-                margin-right: 200px; margin-top: 50px;
+                margin-right: 200px; margin-right: 900px; margin-top: 0px;
+                padding-top: 20px;
                 text-align: right; 
                 white-space: pre;
             }
             h2.h2-2_body1 {
                 color: #595959;
                 font-size: 30pt; 
-                margin-bottom: 100px; margin-left: 300px; margin-top: 100px;
+                padding: 0px; margin: 60px; margin-left: 350px;
                 text-align: left;
                 white-space: pre;
             }
             h2.h2-3_body1 {
                 color: black;
                 font-size: 25pt; font-weight: 900;
-                margin-bottom: 0px; margin-left: 183px;
-                padding-bottom: 0px; padding-top: 20px; 
+                margin-bottom: 0px; margin-left: 900px;
+                padding-bottom: 0px; padding-top: 40px;
                 text-align: left;
             }
             h2.h2-4_body1 {
                 color: #b3b3b3;
                 font-size: 30pt;
                 margin-right: 100px;
+                padding: 0px; margin: 0px;
                 text-align: center;
                 white-space: pre;
             }
@@ -72,41 +75,52 @@
                 color: white;
                 column-span: all;
                 font-size: 30pt;
+                margin-left: 200px;
                 text-align: center;
             }
             h2.h2-6_body1 {
                 color: white;
                 font-size: 20pt;
-                text-align: center;
+                margin-left: 150px;
+                text-align: left;
             }
             img.img1_header1 {
                 height: 150px;
-                padding-left: 20px; padding-top: 20px;
+                padding: 0px; border: 5px solid blue;
+                top: 10px;
+                position: absolute;
                 width: 200px;
+                z-index: 0;
             }
             img.img2_body1{
                 height: 550px;
-                margin-bottom: 50px; margin-top: 100px;
+                padding: 0px; border: 5px solid black; margin-left: 750px;
+                top: 300px;
+                position: absolute;
                 width: 700px;
             }
             img.img3_body1{
                 height: 500px;
-                margin-left: 40px; margin-top: 30px;
+                margin-left: 80px; margin-top: 50px;
+                padding: 0px; border: 5px solid black;
+                position: absolute;
                 width: 675px;
             }
             p.p1_body1 {
                 color: #b3b3b3;
                 font-size: 14pt; font-weight: 700; 
                 line-height: 2;
-                margin-right: 200px;
+                margin-right: 900px;
                 text-align: right; 
                 white-space: pre;
+                
             }
             p.p2_body1 {
                 color: black;
                 font-size: 14pt; font-weight: 700; 
                 line-height: 2;
-                margin-left: 100px;
+                margin-left: 818px;
+                padding: 0px; margin-bottom: 0px;
                 text-align: left;
                 white-space: pre;
             }            
@@ -114,7 +128,7 @@
                 color: white;
                 font-size: 15pt; font-weight: 700;
                 line-height: 2;
-                margin-left: 212px;
+                margin-left: 150px;
                 text-align: left;
             }
             table.table1_header1 {
@@ -230,7 +244,7 @@
                  class="img2_body1">
         </div>
         <h2 class='h2-2_body1'> Highly skilled machinists,
-            with a passion for perfection!</h2>
+                         with a passion for perfection!</h2>
         <div class="div2_body1">
             <img src="images/index2.jpg" alt="image2"
                  class="img3_body1">
@@ -256,7 +270,7 @@
         </div>
         <div class="div4_body1">
             <h2 class='h2-5_body1'>Our Location</h2>
-            <div id="googleMap" style="margin-left:100px;height:55%;"></div>
+            <div id="googleMap" style="margin-left:100px;height:55%;border:5px solid blue;"></div>
             <script>
                 function myMap() {
                     var mapOptions = {
