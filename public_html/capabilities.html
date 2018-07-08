@@ -7,11 +7,8 @@
             a.a_phone_header1 {
                 color:crimson;
             }
-            a.a_phone_header2 {
-                color: #66ccff;
-            }
             a:visited {
-                color: white;
+                color: #990099;
             }
             body.body1{
                 font-family: Helvetica, "open sans", "Times New Roman", serif;
@@ -35,6 +32,51 @@
             div.div5_header1 {
                 background-color: Black;
             }
+            .drop_menu {
+                background: #999999;
+                padding: 0;
+                margin-bottom: 0; margin-left: 300px;
+                list-style-type: none;
+                height: 50px;
+                width: 910px;
+            }
+            .drop_menu li { 
+                float: left;
+            }
+            .drop_menu li a{
+                padding: 15px 60px;
+                display: block;
+                color: #66ccff;
+                font-size: 15pt;
+                font-weight: 900;
+            }
+            .drop_menu ul {
+                position: absolute;
+                left: -9999px;
+                top: -9999px;
+                list-style-type:none;
+            }
+            .drop_menu li:hover {
+                border: solid black 3px; border-collapse: collapse;
+                position:relative; 
+                background: #999999;
+                z-index: 1;
+            }
+            .drop_menu li:hover ul {
+                border: solid black 3px; border-collapse: collapse;
+                left: 0px;
+                top: 50px;
+                background-color: #999999;
+                padding: 0px;
+                z-index: 1;
+            }
+            .drop_menu li:hover ul li a {
+                width: 120px;
+                display: block;
+                text-align: center;
+                background-color: #999999;
+                z-index: 1;
+            }
             h1.h1-1_header1 {
                 color: white;
                 font-weight: 700;
@@ -56,6 +98,7 @@
                 color: #8c8c8c;
                 font-size: 25pt; font-weight: 700;
                 line-height: 2;
+                margin-top: 0px;
                 text-align: left;
                 white-space: pre;
             }
@@ -171,16 +214,38 @@
                         </td>
                     </tr>
                 </table>
-                <nav>
-                    <table class='table2_header1'>
-                        <tr class='tr2_header1'>
-                            <td class='td3_header1'><a class="a_phone_header2" href="index.html">HOME</a></td>
-                            <td class='td3_header1'><a class="a_phone_header2" href="about_us.html">ABOUT US</a></td>
-                            <td class='td3_header1'><a class="a_phone_header2" href="capabilities.html">CAPABILITIES</a></td>
-                            <td class='td3_header1'><a class="a_phone_header2" href="contact_us.html">CONTACT US</a></td>
-                        </tr>
-                    </table>
-                </nav>
+                <div>
+                    <nav>
+                        <ul class="drop_menu">
+                            <li><a href="index.html">HOME</a>
+                                <ul>
+                                    <li><a href="index.html#welcome">Welcome</a></li>
+                                    <li><a href="index.html#services">Services</a></li> 
+                                    <li><a href="index.html#location">Location</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about_us.html">About Us</a>
+                                <ul>
+                                    <li><a href="about_us.html#testimonials">Testimonials</a></li>
+                                    <li><a href="about_us.html#history">History</a></li>
+                                    <li><a href="about_us.html#community">Community</a></li>
+                                </ul>                            
+                            </li>
+                            <li><a href="capabilities.html">Capabilities</a>
+                                <ul>
+                                    <li><a href="capabilities.html#turning">Turning</a></li>
+                                    <li><a href="capabilities.html#milling">Milling</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact_us.html">Contact Us</a>
+                                <ul>
+                                    <li><a href="contact_us.html#location">Location</a></li>
+                                    <li><a href="contact_us.html#careers">Careers</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>    
             </header>
         </div>
         <div class="div1_body1">
@@ -190,7 +255,7 @@
                                                  needs. Our work capacities are growing every year and so 
                                                                   is our list of new equipment. 
             </p>
-        </div>
+        </div><a id="turning"></a>
         <table class="table3_body1">
             <caption class="caption1_body1"> State of the Art Lathes </caption>
             <tr>
@@ -392,7 +457,7 @@
                                                              and material certification.
                                                                                   We prep, We ship, We receive, We inspect!
             </p>
-        </div>
+        </div><a id="milling"></a>
         <table class="table3_body1">
             <caption class="caption1_body1"> Full-Service Range of Mills </caption>
             <tr>

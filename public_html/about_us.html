@@ -7,11 +7,8 @@
             a.a_phone_header1 {
                 color:crimson;
             }
-            a.a_phone_header2 {
-                color: #66ccff;
-            }
             a:visited {
-                color: white;
+                color: #990099;
             }
             body.body1{
                 font-family: Helvetica, "open sans", "Times New Roman", serif;
@@ -31,7 +28,7 @@
             div.div2_body1 {
                 background: linear-gradient(135deg, black 37%, midnightblue 0%);
                 height: 1400px;
-                margin-bottom: 0px; padding-bottom: 0px;
+                margin-bottom: 0px; padding-bottom: 0px;                
             }
             div.div3_body1 {
                 background: linear-gradient(45deg, midnightblue 47%, black 0%);
@@ -40,7 +37,6 @@
             }
             div.div4_body1 {
                 background: linear-gradient(225deg, midnightblue 48.5%, black 0%);
-                column-count: 2; column-fill: auto;
                 height: 570px;
             }           
             div.div5_header1 {
@@ -50,6 +46,51 @@
                 background-color: black;
                 height: 1100px;
             }
+            .drop_menu {
+                background: #999999;
+                padding: 0;
+                margin-bottom: 0; margin-left: 300px;
+                list-style-type: none;
+                height: 50px;
+                width: 910px;
+            }
+            .drop_menu li { 
+                float: left;
+            }
+            .drop_menu li a{
+                padding: 15px 60px;
+                display: block;
+                color: #66ccff;
+                font-size: 15pt;
+                font-weight: 900;
+            }
+            .drop_menu ul {
+                position: absolute;
+                left: -9999px;
+                top: -9999px;
+                list-style-type:none;
+            }
+            .drop_menu li:hover {
+                border: solid black 3px; border-collapse: collapse;
+                position:relative; 
+                background: #999999;
+                z-index: 99;
+            }
+            .drop_menu li:hover ul {
+                border: solid black 3px; border-collapse: collapse;
+                left: 0px;
+                top: 50px;
+                background-color: #999999;
+                padding: 0px;
+                z-index: 99;
+            }
+            .drop_menu li:hover ul li a {
+                width: 120px;
+                display: block;
+                text-align: center;
+                background-color: #999999;
+                z-index: 99;
+            }
             h1.h1-1_header1 {
                 color: white;
                 font-weight: 700;
@@ -57,11 +98,11 @@
             }
             h2.h2-1_body1 {
                 color: #b3b3b3;
-                column-span: all;
                 font-size: 40pt; font-weight: 900;
-                margin-bottom: 0px; margin-top: 0px;
-                padding-bottom: 0px; padding-top: 0px;
+                margin-bottom: 0px; padding-bottom: 0px;
+                margin-top: 0px; padding-top: 30px;
                 text-align: center;
+                z-index: 0;
             }
             h2.h2-2_body1 {
                 color: #b3b3b3;
@@ -119,6 +160,7 @@
                 color: #b3b3b3;
                 font-size: 20pt; font-weight: 700;
                 line-height: 2;
+                margin-top: 0px; padding-top: 0px;
                 text-align: left;
                 white-space: pre;
             }
@@ -150,6 +192,16 @@
                 font-size: 20pt;
                 clear: right;
                 padding-right: 30px;
+            }
+            p.p7_body1 {
+                color: #b3b3b3;
+                font-size: 20pt; font-weight: 700;
+                line-height: 2;
+                margin-top: 0px; padding-top: 0px;
+                text-align: left;
+                position: absolute;
+                left: 800px;
+                top: 400px;
             }
             table.table_footer1 {
                 display: table;
@@ -253,20 +305,42 @@
                             </a>
                         </td>
                     </tr>
-                </table>
-                <nav>
-                    <table class='table2_header1'>
-                        <tr class='tr2_header1'>
-                            <td class='td3_header1'><a class="a_phone_header2" href="index.html">HOME</a></td>
-                            <td class='td3_header1'><a class="a_phone_header2" href="about_us.html">ABOUT US</a></td>
-                            <td class='td3_header1'><a class="a_phone_header2" href="capabilities.html">CAPABILITIES</a></td>
-                            <td class='td3_header1'><a class="a_phone_header2" href="contact_us.html">CONTACT US</a></td>
-                        </tr>
-                    </table>
-                </nav>
+                </table>                
+                <div>
+                    <nav>
+                        <ul class="drop_menu">
+                            <li><a href="index.html">HOME</a>
+                                <ul>
+                                    <li><a href="index.html#welcome">Welcome</a></li>
+                                    <li><a href="index.html#services">Services</a></li> 
+                                    <li><a href="index.html#location">Location</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about_us.html">About Us</a>
+                                <ul>
+                                    <li><a href="about_us.html#testimonials">Testimonials</a></li>
+                                    <li><a href="about_us.html#history">History</a></li>
+                                    <li><a href="about_us.html#community">Community</a></li>
+                                </ul>                            
+                            </li>
+                            <li><a href="capabilities.html">Capabilities</a>
+                                <ul>
+                                    <li><a href="capabilities.html#turning">Turning</a></li>
+                                    <li><a href="capabilities.html#milling">Milling</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact_us.html">Contact Us</a>
+                                <ul>
+                                    <li><a href="contact_us.html#location">Location</a></li>
+                                    <li><a href="contact_us.html#careers">Careers</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
-        </div>
-        <div class="div4_body1">
+        </div>    
+        <div class="div4_body1"><a id="testimonials"></a>
             <h2 class='h2-1_body1'>Testimonials</h2>
             <p class='p1_body1'>
                 Since Solutions Machining, Inc. was founded
@@ -276,11 +350,12 @@
                 few to list are: Auto, Water-jetting, Aerospace,
                 Optics/Laser, Gas & Oil and many more.
             </p>
-            <p class="p1_body1">LIST ALL OF THE TESTIMONIALS I ACQUIRE FOR THE SHOP OVER
-                THE COURSE OF THE SEMESTER ON THE RIGHT SIDE COLUMN. RE-BALANCE
+            <p class="p7_body1">LIST ALL OF THE TESTIMONIALS I ACQUIRE<br>
+                FOR THE SHOP OVER THE COURSE OF THE<br>
+                SEMESTER ON THE RIGHT SIDE COLUMN. RE-BALANCE<br>
                 TEXT IN COLUMNS!!!!<p>
         </div>
-        <div class="div2_body1">
+        <div class="div2_body1"><a id="history"></a>
             <h2 class="h2-2_body1">Our History</h2>        
             <img src="images/bridgeport.jpg" alt="Old_Bridgeport_Mill"
                  class="img1_body1">
@@ -321,10 +396,10 @@
                 shop and meet our team today!
             </p>
         </div>
-        <div class="div3_body1">
+        <div class="div3_body1"><a id="community"></a>
             <h2 class="h2-3_body1">Our Community</h2>        
             <h3 class="h3-1_body1">Dale Williamson: Owner/Manager</h3>
-             <img src="images/dale_williamson.jpg" alt="dale_williamson_photo"
+            <img src="images/dale_williamson.jpg" alt="dale_williamson_photo"
                  class="img3_body1">
             <p class="p3_body1">           
                 Hello and Thank You for your interest in our Team. My 
@@ -396,7 +471,7 @@
                     </td>
                     <td class="td4_body1">
                         <img src="images/jerry_photo.jpg" alt="jerry_photo"
-                        class="img4_body1">
+                             class="img4_body1">
                     </td>
                 </tr>
                 <tr>
@@ -424,7 +499,7 @@
                     </td>
                     <td class="td4_body1">
                         <img src="images/justin_strelka.jpg" alt="justin_strelka_photo"
-                        class="img4_body1">
+                             class="img4_body1">
                     </td>
                 </tr>
                 <tr>
@@ -457,7 +532,7 @@
                     </td>
                     <td class="td4_body1">
                         <img src="images/mike_green.jpg" alt="mike_green_photo"
-                        class="img4_body1">
+                             class="img4_body1">
                     </td>
                 </tr>
             </table>
