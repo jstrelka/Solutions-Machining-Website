@@ -1,207 +1,32 @@
+<!--
+Name: Justin Strelka
+Course: CWB 110 470
+Website: Solutions Machining, Inc.
+Web page: capabilities
+File: capabilities.html
+Creation Date: 6/10/18
+Last Update: 7/21/18
+-->
 <!DOCTYPE html>
 
 <html lang="en">
     <head>
         <title>Capabilities</title>
-        <style type="text/css">
-            a.a_phone_header1 {
-                color:crimson;
-            }
-            a:visited {
-                color: #990099;
-            }
-            body.body1{
-                font-family: Helvetica, "open sans", "Times New Roman", serif;
-                background-color: black;
-            }
-            caption.caption1_body1 {
-                color: blue;
-                font-size: 40pt; font-weight: 900;
-                padding-bottom: 20px;
-            }
-            div.div1_body1 {
-                background: linear-gradient(315deg, midnightblue 60%, white 0%)
-            }
-            div.div2_body1 {
-                background: linear-gradient(45deg, midnightblue 45%, white 0%)
-            }
-            div.div3_footer1 {
-                background-color: white;
-                height: 80px;
-            }
-            div.div5_header1 {
-                background-color: Black;
-            }
-            .drop_menu {
-                background: #999999;
-                padding: 0;
-                margin-bottom: 0; margin-left: 300px;
-                list-style-type: none;
-                height: 50px;
-                width: 910px;
-            }
-            .drop_menu li { 
-                float: left;
-            }
-            .drop_menu li a{
-                padding: 15px 60px;
-                display: block;
-                color: #66ccff;
-                font-size: 15pt;
-                font-weight: 900;
-            }
-            .drop_menu ul {
-                position: absolute;
-                left: -9999px;
-                top: -9999px;
-                list-style-type:none;
-            }
-            .drop_menu li:hover {
-                border: solid black 3px; border-collapse: collapse;
-                position:relative; 
-                background: #999999;
-                z-index: 1;
-            }
-            .drop_menu li:hover ul {
-                border: solid black 3px; border-collapse: collapse;
-                left: 0px;
-                top: 50px;
-                background-color: #999999;
-                padding: 0px;
-                z-index: 1;
-            }
-            .drop_menu li:hover ul li a {
-                width: 120px;
-                display: block;
-                text-align: center;
-                background-color: #999999;
-                z-index: 1;
-            }
-            h1.h1-1_header1 {
-                color: white;
-                font-weight: 700;
-                margin-left: 370px;
-            }
-            img.img1_header1 {
-                height: 150px;
-                padding: 0px; border: 5px solid blue;
-                position: absolute;
-                top: 10px;
-                width: 200px;
-            }
-            img.img1_body1 {
-                height: 100px;
-                padding: 10px;
-                width: 150px;
-            }
-            p.p1_body1 {
-                color: #8c8c8c;
-                font-size: 25pt; font-weight: 700;
-                line-height: 2;
-                margin-top: 0px;
-                text-align: left;
-                white-space: pre;
-            }
-            p.p2_footer1 {
-                color: black;
-                font-size: 15pt;
-                margin-left: 200px;
-            }
-            p.p3_footer1 {
-                color: black;
-                font-size: 15pt;
-                margin-right: 200px;
-            }
-            table.table_footer1 {
-                display: table;
-                margin-left: auto; margin-right: auto; margin-top: 40px;
-                width: 90%;
-            }
-            table.table1_header1 {
-                display: table;
-                width: 100%;
-            }
-            table.table2_header1 {
-                display: table;
-                margin-left: auto; margin-right: auto;
-                width: 50%;                   
-            }
-            table.table3_body1 {
-                border: solid; border-collapse: collapse; border-color: white;
-                display: table;
-                margin-left: auto; margin-right: auto;
-                width: 80%;
-            }
-            td.td1_footer1 {
-                color: black;
-                font-size: 15pt;
-                padding-top: 20px;
-                text-align: left;
-            }
-            td.td2_footer1 {
-                color: black;
-                font-size: 15pt;
-                padding-top: 20px;
-                text-align: left;
-            }
-            td.td3_footer1 {
-                color: black;
-                font-size: 15pt;
-                padding-top: 20px;
-                text-align: right;
-            }
-            td.td1_header1 {
-                color: black;
-                font-size: 25pt; font-weight: 900;
-                text-align: center;               
-            }
-            td.td2_header1 {
-                font-size: 20pt; font-weight: 900;
-                padding-right: 20px; padding-top: 20px;                
-                text-align: right;
-                vertical-align: text-top;               
-            }
-            td.td3_header1 {
-                color: blue; 
-                font-size: 15pt; font-weight: 900;
-                text-align: center;               
-            }
-            td.td4_body1 {
-                border: solid; border-color: white;
-                color: blue;
-                font-size: 20pt; font-weight: 700;
-                text-align: center;
-            }
-            td.td5_body1 {
-                border: solid; border-color: white;               
-            }
-            th.th1_body1 {
-                border: solid; border-color: white; 
-                color: blue;
-                font-size: 20pt; font-weight: 900;
-                padding: 10px;
-                text-align: center;
-            }
-            tr.tr_footer1{
-                display: table-row;
-            }
-            tr.tr1_header1 {
-                display: table-row;
-            }
-            tr.tr2_header1 {
-                display: table-row;
-            }
-        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/capabilities.css">
     </head>
     <body class="body1">
         <div class="div5_header1">
-            <header><a id="top"></a>
+            <header><a id="top"></a><!--Top of page anchor-->
                 <table class="table1_header1">
                     <tr class="tr1_header1">
                         <td>
                             <a href="index.html">
                                 <img src="images/Solutions_Logo.png" alt="Solutions Machining Logo"
-                                     class="img1_header1">
+                                     class="img1_header1"><!--Solutions Machining Logo
+                                in the header portion of page. Linked to index.html
+                                when clicked.-->
                             </a>
                         </td>
                         <td class="td1_header1">
@@ -209,16 +34,18 @@
                         </td>
                         <td class="td2_header1">
                             <a class="a_phone_header1" href="tel:+13034518459">
-                                (303) 451-8459
+                                (303) 451-8459<!--Linked to prompt for communication
+                                               service when selected.-->
                             </a>
                         </td>
                     </tr>
                 </table>
                 <div>
                     <nav>
-                        <ul class="drop_menu">
-                            <li><a href="index.html">HOME</a>
-                                <ul>
+                        <ul class="drop_menu"><!--Navigation bar drop starts here-->
+                            <li><a href="index.html">Home</a>
+                                <ul><!--Each drop tab will direct browser to an anchor
+                                    on the desired page.-->
                                     <li><a href="index.html#welcome">Welcome</a></li>
                                     <li><a href="index.html#services">Services</a></li> 
                                     <li><a href="index.html#location">Location</a></li>
@@ -242,7 +69,7 @@
                                     <li><a href="contact_us.html#location">Location</a></li>
                                     <li><a href="contact_us.html#careers">Careers</a></li>
                                 </ul>
-                            </li>
+                            </li><!--End of Navigation Bar.-->
                         </ul>
                     </nav>
                 </div>    
@@ -250,13 +77,13 @@
         </div>
         <div class="div1_body1">
             <p class="p1_body1">
-                Our machining capacities range from 5-Axis multi-spindle 
-                               lathes to tumblers for all your de-burring and finishing 
-                                                 needs. Our work capacities are growing every year and so 
-                                                                  is our list of new equipment. 
+                Our machining capabilities range from 5-Axis multi-spindle 
+                             lathes to tumblers for all your de-burring and finishing 
+                                               needs. Our work load capacity is growing every year and so 
+                                                                   is our list of new equipment. 
             </p>
-        </div><a id="turning"></a>
-        <table class="table3_body1">
+        </div><a id="turning"></a><!--Turning Anchor-->
+        <table class="table3_body1"><!--Beginning of Lathe Table-->
             <caption class="caption1_body1"> State of the Art Lathes </caption>
             <tr>
                 <th class='th1_body1'>
@@ -302,7 +129,7 @@
                 </td>
                 <td class='td5_body1'>
                     <img src="images/mori_seiki_nlx_2500.jpg" alt="mori_seiki_nlx_2500"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -326,7 +153,7 @@
                 </td>
                 <td class='td5_body1'>
                     <img src="images/mori_seiki_sl_200.jpg" alt="mori_seiki_sl_200"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -350,7 +177,7 @@
                 </td>
                 <td class='td5_body1'>
                     <img src="images/mori_seiki_sl_250.jpg" alt="mori_seiki_sl_250"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -374,7 +201,7 @@
                 </td>
                 <td class='td4_body1'>
                     <img src="images/mori_seiki_duraturn.jpg" alt="mori_seiki_duraturn"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -398,7 +225,7 @@
                 </td>
                 <td class='td4_body1'>
                     <img src="images/mazak_integrex.jpg" alt="mazak_integrex"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -422,7 +249,7 @@
                 </td>
                 <td class='td4_body1'>
                     <img src="images/hyundai_h1.jpg" alt="hyundai_h1"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -446,19 +273,19 @@
                 </td>
                 <td class='td4_body1'>
                     <img src="images/hyundai_h2.jpg" alt="hyundai_h2"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
-        </table>
+        </table><!--End of Lathe Table-->
         <div class="div2_body1">
             <p class="p1_body1">
-                We also have out source options for 
-                                    precision grinding, heat treating 
-                                                             and material certification.
-                                                                                  We prep, We ship, We receive, We inspect!
+                                         We also have out-sourcing options for 
+                                                        precision grinding, heat treating 
+                                                                         and material certification.
+                                               We prep, We ship, We receive, We inspect!
             </p>
         </div><a id="milling"></a>
-        <table class="table3_body1">
+        <table class="table3_body1"><!--Beginning of Mills Table-->
             <caption class="caption1_body1"> Full-Service Range of Mills </caption>
             <tr>
                 <th class="th1_body1">
@@ -510,7 +337,7 @@
                 </td>
                 <td class='td4_body1'>
                     <img src="images/haas_vf_4.jpg" alt="haas_vf_4"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -537,7 +364,7 @@
                 </td>
                 <td class='td4_body1'>
                     <img src="images/haas_vf_7.jpg" alt="haas_vf_7"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
             <tr>
@@ -564,10 +391,10 @@
                 </td>
                 <td class='td4_body1'>
                     <img src="images/haas_vf_8.jpg" alt="haas_vf_8"
-                                     class="img1_body1">
+                         class="img1_body1">
                 </td>
             </tr>
-        </table>
+        </table><!--End of Milling Table-->
         <div class="div3_footer1">
             <footer>
                 <table class="table_footer1">

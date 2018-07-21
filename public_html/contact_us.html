@@ -1,238 +1,33 @@
+<!--
+Name: Justin Strelka
+Course: CWB 110 470
+Website: Solutions Machining, Inc.
+Web page: contact_us
+File: contact_us.html
+Creation Date: 6/10/18
+Last Update: 7/21/18
+-->
 <!DOCTYPE html>
 
 <html lang="en">
     <head>
         <title>Contact Us</title>
-        <style type="text/css">
-            a.a_phone_header1 {
-                color:crimson;
-            }
-            a:visited {
-                color: #990099;
-            }
-            body.body1{
-                font-family: Helvetica, "open sans", "Times New Roman", serif;
-            }
-            div.div1_body1 {
-                column-count: 2;
-            }
-            div.div2_body1 {
-                background: linear-gradient(225deg, lightgray 45%, white 0%);
-                height: 500px;
-            }
-            div.div3_footer1 {
-                background-color: black;
-                height: 80px;
-            }
-            div.div4_body1 {
-                background-color: #595959;
-                height: 400px;
-            }  
-            div.div5_header1 {
-                background-color: Black;
-            }
-            .drop_menu {
-                background: #999999;
-                padding: 0;
-                margin-bottom: 0; margin-left: 300px;
-                list-style-type: none;
-                height: 50px;
-                width: 910px;
-            }
-            .drop_menu li { 
-                float: left;
-            }
-            .drop_menu li a{
-                padding: 15px 60px;
-                display: block;
-                color: #66ccff;
-                font-size: 15pt;
-                font-weight: 900;
-            }
-            .drop_menu ul {
-                position: absolute;
-                left: -9999px;
-                top: -9999px;
-                list-style-type:none;
-            }
-            .drop_menu li:hover {
-                border: solid black 3px; border-collapse: collapse;
-                position:relative; 
-                background: #999999;
-                z-index: 1;
-            }
-            .drop_menu li:hover ul {
-                border: solid black 3px; border-collapse: collapse;
-                left: 0px;
-                top: 50px;
-                background-color: #999999;
-                padding: 0px;
-                z-index: 1;
-            }
-            .drop_menu li:hover ul li a {
-                width: 120px;
-                display: block;
-                text-align: center;
-                background-color: #999999;
-                z-index: 1;
-            }
-            h1.h1-1_header1 {
-                color: white;
-                font-weight: 700;
-                margin-left: 360px;
-            }
-            h2.h2-1_body1 {
-                color: Black;
-                font-size: 25pt;
-            }
-            h2.h2-2_body1 {
-                color: darkblue;
-                font-size: 30pt; font-weight: 900;
-                margin-top: 0px;
-                padding-top: 20px;
-                text-align: center;
-            }
-            h2.h2-5_body1 {
-                color: white;
-                font-size: 30pt;
-                margin-top: 0px;
-                padding-top: 30px;
-                text-align: center;
-            }
-            h2.h2-6_body1 {
-                color: white;
-                font-size: 20pt;
-                text-align: left;
-                position: absolute;
-                left: 800px;
-                top: 330px;
-            }
-            img.img1_header1 {
-                height: 150px;
-                padding: 0px; border: 5px solid blue;
-                position: absolute;
-                top: 10px;
-                width: 200px;
-            }
-            img.img1_body1 {
-                border: 5px solid black; padding: 0px;
-                height: 300px;
-                margin-left: 950px; margin-top: 0px;
-                position: absolute;
-                top: 750px;
-                width: 450px
-            }
-            p.p1_body1 {
-                color: black;
-                font-size: 15pt;
-            }
-            p.p2_body1 {
-                color: darkblue;
-                font-size: 22pt; font-weight: 600;
-                margin-right: 700px;
-                text-align: right;
-            }            
-            p.p5_body1 {
-                color: white;
-                font-size: 15pt; font-weight: 700;
-                line-height: 2;
-                text-align: left;
-                position: absolute;
-                left: 805px;
-                top: 380px;
-            }
-            table.table_footer1 {
-                display: table;
-                margin-left: auto; margin-right: auto;
-                width: 90%;
-            }
-            table.table1_header1 {
-                display: table;
-                width: 100%;
-            }
-            table.table2_header1 {
-                display: table;
-                margin-left: auto; margin-right: auto;
-                width: 50%;                   
-            }
-            table.table3_body1 {
-                border: solid; border-collapse: collapse;
-                display: table;
-                margin-left: 50px;
-                width: 50%
-            }
-            td.td1_footer1 {
-                color: white;
-                font-size: 15pt;
-                padding-top: 30px;
-                text-align: left;
-            }
-            td.td2_footer1 {
-                color: white;
-                font-size: 15pt;
-                padding-top: 30px;
-                text-align: left;
-            }
-            td.td3_footer1 {
-                color: black;
-                font-size: 15pt;
-                padding-top: 30px;
-                text-align: right;
-            }
-            td.td1_header1 {
-                color: black;
-                font-size: 25pt; font-weight: 900;
-                text-align: center;               
-            }
-            td.td2_header1 {
-                font-size: 20pt; font-weight: 900; 
-                padding-right: 20px; padding-top: 20px;
-                text-align: right;
-                vertical-align: text-top;               
-            }
-            td.td3_header1 {
-                color: blue; 
-                font-size: 15pt; font-weight: 900;
-                padding-bottom: 20px;
-                text-align: center;               
-            }
-            td.td4_body1 {
-                border: solid;
-                color: black;
-                font-size: 12pt;
-            }
-            td.td5_body1 {
-                border: solid;
-                color: black;
-                font-size: 12pt;
-            }
-            tr.tr1_body1 {
-                display: table-row;
-                height: 40px;
-            }
-            tr.tr_footer1{
-                display: table-row;
-            }
-            tr.tr1_header1 {
-                display: table-row;
-            }
-            tr.tr2_header1 {
-                display: table-row;
-            }
-            tr.tr3_header1 {
-                display: table-row;
-            }
-        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/contact_us.css">
+        <script src="java/contact_us.js"></script>
     </head>
     <body class="body1">
         <div class="div5_header1">
-            <header>
+            <header><a id="top"></a><!--Top of page anchor-->
                 <table class="table1_header1">
                     <tr class="tr1_header1">
                         <td>
                             <a href="index.html">
                                 <img src="images/Solutions_Logo.png" alt="Solutions Machining Logo"
-                                     class="img1_header1">
+                                     class="img1_header1"><!--Solutions Machining Logo
+                                in the header portion of page. Linked to index.html
+                                when clicked.-->
                             </a>
                         </td>
                         <td class="td1_header1">
@@ -240,16 +35,18 @@
                         </td>
                         <td class="td2_header1">
                             <a class="a_phone_header1" href="tel:+13034518459">
-                                (303) 451-8459
+                                (303) 451-8459<!--Linked to prompt for communication
+                                               service when selected.-->
                             </a>
                         </td>
                     </tr>
                 </table>
                 <div>
                     <nav>
-                        <ul class="drop_menu">
-                            <li><a href="index.html">HOME</a>
-                                <ul>
+                        <ul class="drop_menu"><!--Navigation bar drop starts here-->
+                            <li><a href="index.html">Home</a>
+                                <ul><!--Each drop tab will direct browser to an anchor
+                                    on the desired page.-->
                                     <li><a href="index.html#welcome">Welcome</a></li>
                                     <li><a href="index.html#services">Services</a></li> 
                                     <li><a href="index.html#location">Location</a></li>
@@ -273,31 +70,20 @@
                                     <li><a href="contact_us.html#location">Location</a></li>
                                     <li><a href="contact_us.html#careers">Careers</a></li>
                                 </ul>
-                            </li>
+                            </li><!--End of Navigation Bar.-->
                         </ul>
                     </nav>
                 </div>    
             </header>
         </div>
-        <div class="div4_body1"><a id="location"></a>
+        <div class="div4_body1"><a id="location"></a><!--Location Anchor-->
             <h2 class='h2-5_body1'>Our Location</h2>
             <div id="googleMap" style="margin-left:100px;height:55%;border:5px solid blue;width:500px;"></div>
             <script>
-                function myMap() {
-                    var mapOptions = {
-                        center: new google.maps.LatLng(39.805546, -105.063570),
-                        zoom: 12,
-                        streetViewControl: false,
-                        fullscreenControl: false,
-                        panControl: false,
-                        draggable: false,
-                        scrollwheel: false,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    };
-                    var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-                }
+                myMap();
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7HjzRzCdqzq0b8xNs24o5izgzGQ-Q1SM&amp;callback=myMap"></script>
+            <!--The above script is for Google Map insertion-->
             <h2 class='h2-6_body1'>Solutions Machining, Inc. </h2>
             <p class="p5_body1">
                 6060 West 59th Avenue <br />
@@ -308,77 +94,67 @@
             </p>
         </div>
         <div class="div2_body1">    
-            <h2 class="h2-2_body1">Careers</h2><a id="careers"></a>
+            <h2 class="h2-2_body1">Careers</h2><a id="careers"></a><!--Careers Anchor-->
             <p class="p2_body1">
                 Fill out the form below and upload your resume,<br/>
                 We're Hiring!
-            </p>
-            <table class="table3_body1">
-                <tr class="tr1_body1">
-                    <td class="td4_body1">
-                        First Name:
-                    </td>
-                    <td class="td4_body1">
-                        "Create name box link"
-                    </td>
-                    <td class="td4_body1">
-                        Last Name:
-                    </td>
-                    <td class="td4_body1">
-                        "Create name box link"
-                    </td>
-                </tr>
-                <tr class="tr1_body1">
-                    <td class="td4_body1">
-                        Phone:
-                    </td>
-                    <td class="td4_body1">
-                        "Create phone box link"
-                    </td>
-                    <td class="td4_body1">
-                        E-mail:
-                    </td>
-                    <td class="td4_body1">
-                        "Create E-mail box link"
-                    </td>
-                </tr>
-                <tr class="tr1_body1">
-                    <td class="td4_body1">
-                        Street Address:
-                    </td>
-                    <td colspan="3" class="td4_body1">
-                        "Create street address box link"
-                    </td>
-                </tr>
-                <tr class="tr1_body1">
-                    <td class="td4_body1">
-                        Apt. #: 
-                    </td>
-                    <td class="td4_body1">
-                        "Create apartment box link"
-                    </td>
-                    <td class="td4_body1">
-                        City:
-                    </td>
-                    <td class="td4_body1">
-                        "Create city box link"
-                    </td>
-                </tr>
-                <tr class="tr1_body1">
-                    <td class="td4_body1">
-                        State: 
-                    </td>
-                    <td class="td4_body1">
-                        "Create state box link"
-                    </td>
-                    <td class="td4_body1">
-                        Zip: 
-                    </td>
-                    <td class="td4_body1">
-                        "Create zip box link"
-                    </td>
-                </tr>
-            </table>
+            </p><!--Submission Form starts here. Currently set to email form info, if
+                database submission is desired make changes accordingly-->
+            <form class='form' name="contact_request" method="post" action='mailto:jstrelka@student.cccs.edu'>
+                <p><label for='first_name'>                  <!--Change mailto: address to desired e-mail target.-->
+                        First Name:</label>
+                    <input type='text' id='first_name' name='first_name'
+                           placeholder='Enter your first name.'
+                           size="20" required/>
+                    <label for='last_name'>
+                        Last Name:</label>
+                    <input type='text' id='last_name' name='last_name'
+                           placeholder='Enter your last name.'
+                           size='20' required/>
+                </p>
+                <p><label for='phone_num'>
+                        Phone:</label>
+                    <input type='number' id='phone_num' name='phone_num'
+                           placeholder='Enter your phone number.'
+                           size='20' required/>
+                    <label for='e-mail'>
+                        E-mail:</label>
+                    <input type='email' id='e-mail' name='e-mail'
+                           placeholder='Enter your e-mail address.'
+                           size='29' required/>
+                </p>
+                <p><label for='phone_num'>
+                        Street Address:</label>
+                    <input type='text' id='street_adr' name='street_adr'
+                           placeholder='Enter your Street Address.'
+                           size='54' required/>
+                </p>
+                <p><label for='apt_num'>
+                        Unit#:</label>
+                    <input type='number' id='apt_num' name='apt_num'
+                           placeholder='Enter unit number.'
+                           size='20'/>
+                    <label for='city'>
+                        City:</label>
+                    <input type='text' id='city' name='city'
+                           placeholder='Enter your city.'
+                           size='33' required/>
+                </p>
+                <p><label for='state'>
+                        State:</label>
+                    <input type='text' id='state' name='state'
+                           placeholder='Enter your state.'
+                           size='20' required/>
+                    <label for='postal_code'>
+                        Postal Code:</label>
+                    <input type='number' id='postal_code' name='postal_code'
+                           placeholder='Enter postal code.'
+                           size='20' required/>
+                </p>
+                <div id='buttons'>
+                    <input type='submit' value="Submit"/>
+                </div>
+            </form>
             <img src="images/contact_us_1.jpg" alt="contact_us_1"
                  class="img1_body1">
         </div>

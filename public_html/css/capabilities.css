@@ -1,0 +1,196 @@
+/*
+Name: Justin Strelka
+Course: CWB 110 470
+Website: Solutions Machining, Inc.
+File: capabilities.css
+Creation Date: 6/10/18
+Last Update: 7/21/18
+*/
+
+a.a_phone_header1 {
+    color:crimson;
+}
+a:visited {
+    color: #990099;
+}
+body.body1{
+    font-family: Helvetica, "open sans", "Times New Roman", serif;
+    background-color: black;
+}
+caption.caption1_body1 {
+    color: blue;
+    font-size: 40pt; font-weight: 900;
+    padding-bottom: 20px;
+}
+div.div1_body1 {
+    background: linear-gradient(315deg, midnightblue 60%, white 0%)
+}
+div.div2_body1 {
+    background: linear-gradient(45deg, midnightblue 45%, white 0%)
+}
+div.div3_footer1 {
+    background-color: white;
+    height: 80px;
+}
+div.div5_header1 {
+    background-color: Black;
+}
+.drop_menu {
+    background: #999999;
+    padding: 0;
+    margin-bottom: 0; margin-left: 300px;
+    list-style-type: none;
+    height: 50px;
+    width: 910px;
+}
+.drop_menu li { 
+    float: left;
+}
+.drop_menu li a{
+    padding: 15px 60px;
+    display: block;
+    color: #66ccff;
+    font-size: 15pt;
+    font-weight: 900;
+}
+.drop_menu ul {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    list-style-type:none;
+}
+.drop_menu li:hover {
+    border: solid black 3px; border-collapse: collapse;
+    position:relative; 
+    background: #999999;
+    z-index: 1;
+}
+.drop_menu li:hover ul {
+    border: solid black 3px; border-collapse: collapse;
+    left: 0px;
+    top: 50px;
+    background-color: #999999;
+    padding: 0px;
+    z-index: 1;
+}
+.drop_menu li:hover ul li a {
+    width: 120px;
+    display: block;
+    text-align: center;
+    background-color: #999999;
+    z-index: 1;
+}
+h1.h1-1_header1 {
+    color: white;
+    font-weight: 700;
+    margin-left: 370px;
+}
+img.img1_header1 {
+    height: 150px;
+    padding: 0px; border: 5px solid blue;
+    position: absolute;
+    top: 10px;
+    width: 200px;
+}
+img.img1_body1 {
+    height: 100px;
+    padding: 10px;
+    width: 150px;
+}
+p.p1_body1 {
+    color: #8c8c8c;
+    font-size: 25pt; font-weight: 700;
+    line-height: 2;
+    margin-top: 0px;
+    text-align: left;
+    white-space: pre;
+}
+p.p2_footer1 {
+    color: black;
+    font-size: 15pt;
+    margin-left: 200px;
+}
+p.p3_footer1 {
+    color: black;
+    font-size: 15pt;
+    margin-right: 200px;
+}
+table.table_footer1 {
+    display: table;
+    margin-left: auto; margin-right: auto; margin-top: 40px;
+    width: 90%;
+}
+table.table1_header1 {
+    display: table;
+    width: 100%;
+}
+table.table2_header1 {
+    display: table;
+    margin-left: auto; margin-right: auto;
+    width: 50%;                   
+}
+table.table3_body1 {
+    border: solid; border-collapse: collapse; border-color: white;
+    display: table;
+    margin-left: auto; margin-right: auto;
+    width: 80%;
+}
+td.td1_footer1 {
+    color: black;
+    font-size: 15pt;
+    padding-top: 20px;
+    text-align: left;
+}
+td.td2_footer1 {
+    color: black;
+    font-size: 15pt;
+    padding-top: 20px;
+    text-align: left;
+}
+td.td3_footer1 {
+    color: black;
+    font-size: 15pt;
+    padding-top: 20px;
+    text-align: right;
+}
+td.td1_header1 {
+    color: black;
+    font-size: 25pt; font-weight: 900;
+    text-align: center;               
+}
+td.td2_header1 {
+    font-size: 20pt; font-weight: 900;
+    padding-right: 20px; padding-top: 20px;                
+    text-align: right;
+    vertical-align: text-top;               
+}
+td.td3_header1 {
+    color: blue; 
+    font-size: 15pt; font-weight: 900;
+    text-align: center;               
+}
+td.td4_body1 {
+    border: solid; border-color: white;
+    color: blue;
+    font-size: 20pt; font-weight: 700;
+    text-align: center;
+}
+td.td5_body1 {
+    border: solid; border-color: white;               
+}
+th.th1_body1 {
+    border: solid; border-color: white; 
+    color: blue;
+    font-size: 20pt; font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+tr.tr_footer1{
+    display: table-row;
+}
+tr.tr1_header1 {
+    display: table-row;
+}
+tr.tr2_header1 {
+    display: table-row;
+}

@@ -1,243 +1,31 @@
+<!--
+Name: Justin Strelka
+Course: CWB 110 470
+Website: Solutions Machining, Inc.
+Web page: index
+File: index.html
+Creation Date: 6/10/18
+Last Update: 7/21/18
+-->
 <!DOCTYPE html>
 
 <html lang="en">
     <head>
-        <title>Solutions Machining Inc.</title>
-        <style type="text/css">
-            a.a_phone_header1 {
-                color: crimson;                
-            }
-            a:visited{
-                color: #990099;
-            }
-            body.body1{
-                font-family: Helvetica, "open sans", "Times New Roman", serif;
-            }
-            div.div1_body1 {
-                background: linear-gradient(55deg, midnightblue 55%, white 0%);
-            }
-            div.div2_body1 {
-                background: linear-gradient(225deg, #0073e6 52%, white 0%);
-                height: 600px;
-                padding: 0px; margin-bottom: 0px;
-            }
-            div.div3_footer1 {
-                height: 60px;
-            }
-            div.div4_body1 {
-                background-color: #595959;
-                column-count: 2;
-                height: 400px;
-            }  
-            div.div5_header1 {
-                background-color: Black;
-            }
-            div.div6_body1 {
-                background-color: midnightblue;
-                padding: 0px; margin: 0px;
-            }
-            .drop_menu {
-                background: #999999;
-                padding: 0;
-                margin-bottom: 0; margin-left: 300px;
-                list-style-type: none;
-                height: 50px;
-                width: 910px;
-            }
-            .drop_menu li { 
-                float: left;
-            }
-            .drop_menu li a{
-                padding: 15px 60px;
-                display: block;
-                color: #66ccff;
-                font-size: 15pt;
-                font-weight: 900;
-            }
-            .drop_menu ul {
-                position: absolute;
-                left: -9999px;
-                top: -9999px;
-                list-style-type:none;
-            }
-            .drop_menu li:hover {
-                border: solid black 3px; border-collapse: collapse;
-                position:relative; 
-                background: #999999;
-                z-index: 1;
-            }
-            .drop_menu li:hover ul {
-                border: solid black 3px; border-collapse: collapse;
-                left: 0px;
-                top: 50px;
-                background-color: #999999;
-                padding: 0px;
-                z-index: 1;
-            }
-            .drop_menu li:hover ul li a {
-                width: 120px;
-                display: block;
-                text-align: center;
-                background-color: #999999;
-                z-index: 1;
-            }
-            h1.h1-1_header1 {
-                color: white;
-                font-weight: 700;
-                margin-left: 220px;
-            }
-            h2.h2-1_body1 {
-                color: #b3b3b3;
-                font-size: 25pt; font-weight: 900;
-                margin-right: 200px; margin-right: 900px; margin-top: 0px;
-                padding-top: 50px;
-                text-align: right; 
-                white-space: pre;
-            }
-            h2.h2-2_body1 {
-                color: #595959;
-                font-size: 30pt; 
-                padding: 0px; margin: 60px; margin-left: 350px;
-                text-align: left;
-                white-space: pre;
-            }
-            h2.h2-3_body1 {
-                color: black;
-                font-size: 25pt; font-weight: 900;
-                margin-bottom: 0px; margin-left: 900px;
-                padding-bottom: 0px; padding-top: 40px;
-                text-align: left;
-            }
-            h2.h2-4_body1 {
-                color: #b3b3b3;
-                font-size: 30pt;
-                padding: 0px; margin-bottom: 0px; margin-top: 0px;
-                margin-right: 200px;
-                text-align: center;
-                white-space: pre;
-            }
-            h2.h2-5_body1 {
-                color: white;
-                column-span: all;
-                font-size: 30pt;
-                text-align: center;
-            }
-            h2.h2-6_body1 {
-                color: white;
-                font-size: 20pt;
-                margin-left: 150px;
-                text-align: left;
-            }
-            img.img1_header1 {
-                height: 150px;
-                padding: 0px; border: 5px solid blue;
-                top: 10px;
-                position: absolute;
-                width: 200px;
-            }
-            img.img2_body1{
-                height: 550px;
-                padding: 0px; border: 5px solid black; margin-left: 750px;
-                top: 300px;
-                position: absolute;
-                width: 700px;
-                z-index: 0;
-            }
-            img.img3_body1{
-                height: 500px;
-                margin-left: 80px; margin-top: 50px;
-                padding: 0px; border: 5px solid black;
-                position: absolute;
-                width: 675px;
-            }
-            p.p1_body1 {
-                color: #b3b3b3;
-                font-size: 14pt; font-weight: 700; 
-                line-height: 2;
-                margin-right: 900px;
-                text-align: right; 
-                white-space: pre;
-                
-            }
-            p.p2_body1 {
-                color: black;
-                font-size: 14pt; font-weight: 700; 
-                line-height: 2;
-                margin-left: 818px;
-                padding: 0px; margin-bottom: 0px;
-                text-align: left;
-                white-space: pre;
-            }            
-            p.p5_body1 {
-                color: white;
-                font-size: 15pt; font-weight: 700;
-                line-height: 2;
-                margin-left: 150px;
-                text-align: left;
-            }
-            table.table1_header1 {
-                display: table;
-                width: 100%;
-            }
-            table.table2_header1 {
-                display: table;
-                margin-left: auto; margin-right: auto;
-                width: 50%;                   
-            }
-            table.table_footer1 {
-                display: table;
-                margin-left: auto; margin-right: auto; margin-top: 40px;
-                width: 90%;
-            }
-            td.td1_footer1 {
-                color: black;
-                font-size: 15pt;
-                text-align: left;
-            }
-            td.td2_footer1 {
-                color: black;
-                font-size: 15pt;
-                text-align: left;
-            }
-            td.td3_footer1 {
-                color: black;
-                font-size: 15pt;
-                text-align: right;
-            }
-            td.td1_header1 {
-                color: black;
-                font-size: 25pt; font-weight: 900;
-                text-align: center;               
-            }
-            td.td2_header1 {
-                font-size: 20pt; font-weight: 900; 
-                padding-right: 20px; padding-top: 20px;
-                text-align: right;
-                vertical-align: text-top;               
-            }
-            td.td3_header1 { 
-                font-size: 15pt; font-weight: 900;
-                padding-bottom: 15px;
-                text-align: center;               
-            }
-            tr.tr_footer1{
-                display: table-row;
-            }
-            tr.tr1_header1 {
-                display: table-row;
-            }
-            tr.tr2_header1 {
-                display: table-row;
-            }
-        </style>
+        <title>Solutions Machining, Inc.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="java/index.js"></script>
     </head>
     <body class="body1">
         <div class="div5_header1">
-            <header> <a id="top"></a>
+            <header> <a id="top"></a><!--Top of page anchor-->
                 <table class="table1_header1">
                     <tr class="tr1_header1">
                         <td>
-                            <a href="index.html">
+                            <a href="index.html"><!--Solutions Machining Logo
+                                in the header portion of page. Linked to index.html
+                                when clicked.-->
                                 <img src="images/Solutions_Logo.png" alt="Solutions Machining Logo"
                                      class="img1_header1">
                             </a>
@@ -247,16 +35,18 @@
                         </td>
                         <td class="td2_header1">
                             <a class="a_phone_header1" href="tel:+13034518459">
-                                (303) 451-8459
+                                (303) 451-8459 <!--Linked to prompt for communication
+                                               service when selected.-->
                             </a>
                         </td>
                     </tr>
                 </table>
                 <div>
                     <nav>
-                        <ul class="drop_menu">
-                            <li><a href="index.html">HOME</a>
-                                <ul>
+                        <ul class="drop_menu"><!--Navigation bar drop starts here-->
+                            <li><a href="index.html">Home</a>
+                                <ul><!--Each drop tab will direct browser to an anchor
+                                    on the desired page.-->
                                     <li><a href="index.html#welcome">Welcome</a></li>
                                     <li><a href="index.html#services">Services</a></li> 
                                     <li><a href="index.html#location">Location</a></li>
@@ -280,19 +70,19 @@
                                     <li><a href="contact_us.html#location">Location</a></li>
                                     <li><a href="contact_us.html#careers">Careers</a></li>
                                 </ul>
-                            </li>
+                            </li><!--End of Navigation Bar.-->
                         </ul>
                     </nav>
                 </div>    
             </header>
         </div>
-        <div class="div1_body1"><a id="welcome"></a>
+        <div class="div1_body1"><a id="welcome"></a><!--Welcome anchor-->
             <h2 class='h2-1_body1'> Welcome to Solutions 
                 Machining, Inc.</h2>
             <p class='p1_body1'>
                 Here at Solutions Machining, Inc.
                 we are committed to meeting and
-                exceeding our customers needs.
+                exceeding our customer's needs.
                 We are a full-service one-stop
                 shop that can do it all. Without
                 the headaches of corporate overhead.
@@ -306,52 +96,44 @@
                 too <strong>BIG</strong> or too small.
             </p>
             <img src="images/index1.jpg" alt="image1"
-                 class="img2_body1">
+                 class="img2_body1"><!--Image is placed with absolute css
+                                    positioning if converted to responsive
+                                    layout consider using relative positioning.-->
         </div>
         <h2 class='h2-2_body1'> Highly skilled machinists,
-                         with a passion for perfection!</h2>
-        <div class="div2_body1"><a id="services"></a>
+            with a passion for perfection!</h2>
+        <div class="div2_body1"><a id="services"></a><!--Services Anchor-->
             <img src="images/index2.jpg" alt="image2"
-                 class="img3_body1">
+                 class="img3_body1"><!--If converted to responsive layout 
+                                    change positioning attributes of image.-->
             <h2 class='h2-3_body1'>Areas of Service</h2>
             <p class='p2_body1'>
                 We know in today's fluctuating
-                market that our customers need 
+                market; our customers need 
                 access to parts on demand. Here 
                 at Solutions we offer a Kan-Ban
                 inventory system at little to 
                 no-cost to our customers. Aside
                 from quality parts on demand we 
                 offer<strong> FREE </strong>prototyping to our 
-                returning customers. Its our way 
-                of saying, we appreciate You.
+                returning customers. It's our way 
+                of saying, we appreciate <strong>YOU!</strong>
             </p>
         </div>
         <div class="div6_body1">
             <h2 class="h2-4_body1">
-                We're hiring, drop off or upload
-                your resume today!
+                We're hiring, drop off or upload your 
+                resume on our "Contact Us" page today!
             </h2>
         </div>
         <div class="div4_body1">
-            <h2 class='h2-5_body1'>Our Location</h2><a id="location"></a>
+            <h2 class='h2-5_body1'>Our Location</h2><a id="location"></a><!--Location Anchor-->
             <div id="googleMap" style="margin-left:100px;height:55%;border:5px solid blue;"></div>
-            <script>
-                function myMap() {
-                    var mapOptions = {
-                        center: new google.maps.LatLng(39.805546, -105.063570),
-                        zoom: 12,
-                        streetViewControl: false,
-                        fullscreenControl: false,
-                        panControl: false,
-                        draggable: false,
-                        scrollwheel: false,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    };
-                    var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-                }
-            </script>
+            <script type="text/javascript">
+                myMap();
+            </script>            
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7HjzRzCdqzq0b8xNs24o5izgzGQ-Q1SM&amp;callback=myMap"></script>
+            <!--The above script coding is all for Google Maps insertion.-->
             <h2 class='h2-6_body1'>Solutions Machining, Inc. </h2>
             <p class="p5_body1">
                 6060 West 59th Avenue <br />
@@ -369,10 +151,11 @@
                             Solutions Machining, Inc &copy; 2018
                         </td>
                         <td class="td2_footer1">
-                            A Brighter Day Industries Production
+                            A Brighter Day Production
                         </td>
                         <td class="td3_footer1">
-                            <a href="#top"><em>Back To Top</em></a>
+                            <a href="#top"><em>Back To Top</em></a><!--Navigate 
+                                                                   to top of page-->
                         </td>
                     </tr>
                 </table>

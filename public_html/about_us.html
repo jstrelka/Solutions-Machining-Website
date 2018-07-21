@@ -1,299 +1,32 @@
+<!--
+Name: Justin Strelka
+Course: CWB 110 470
+Website: Solutions Machining, Inc.
+Web page: about_us
+File: about_us.html
+Creation Date: 6/10/18
+Last Update: 7/21/18
+-->
 <!DOCTYPE html>
 
 <html lang="en">
     <head>
         <title>Solutions Machining Inc.</title>
-        <style type="text/css">
-            a.a_phone_header1 {
-                color:crimson;
-            }
-            a:visited {
-                color: #990099;
-            }
-            body.body1{
-                font-family: Helvetica, "open sans", "Times New Roman", serif;
-            }
-            caption.caption1_body1 {
-                color: blue;
-                font-size: 30pt; font-weight: 900;
-                margin-bottom: 50px; margin-top: 50px;
-                text-align: center;
-            }
-            div.div3_footer1 {
-                height: 60px;
-            }
-            div.div1_body1 {
-                column-count: 2;
-            }
-            div.div2_body1 {
-                background: linear-gradient(135deg, black 37%, midnightblue 0%);
-                height: 1400px;
-                margin-bottom: 0px; padding-bottom: 0px;                
-            }
-            div.div3_body1 {
-                background: linear-gradient(45deg, midnightblue 47%, black 0%);
-                height: 700px;
-                margin-top: 0px; padding-top: 0px;
-            }
-            div.div4_body1 {
-                background: linear-gradient(225deg, midnightblue 48.5%, black 0%);
-                height: 570px;
-            }           
-            div.div5_header1 {
-                background-color: Black;
-            }
-            div.div6_body1 {
-                background-color: black;
-                height: 1100px;
-            }
-            .drop_menu {
-                background: #999999;
-                padding: 0;
-                margin-bottom: 0; margin-left: 300px;
-                list-style-type: none;
-                height: 50px;
-                width: 910px;
-            }
-            .drop_menu li { 
-                float: left;
-            }
-            .drop_menu li a{
-                padding: 15px 60px;
-                display: block;
-                color: #66ccff;
-                font-size: 15pt;
-                font-weight: 900;
-            }
-            .drop_menu ul {
-                position: absolute;
-                left: -9999px;
-                top: -9999px;
-                list-style-type:none;
-            }
-            .drop_menu li:hover {
-                border: solid black 3px; border-collapse: collapse;
-                position:relative; 
-                background: #999999;
-                z-index: 99;
-            }
-            .drop_menu li:hover ul {
-                border: solid black 3px; border-collapse: collapse;
-                left: 0px;
-                top: 50px;
-                background-color: #999999;
-                padding: 0px;
-                z-index: 99;
-            }
-            .drop_menu li:hover ul li a {
-                width: 120px;
-                display: block;
-                text-align: center;
-                background-color: #999999;
-                z-index: 99;
-            }
-            h1.h1-1_header1 {
-                color: white;
-                font-weight: 700;
-                margin-left: 420px;
-            }
-            h2.h2-1_body1 {
-                color: #b3b3b3;
-                font-size: 40pt; font-weight: 900;
-                margin-bottom: 0px; padding-bottom: 0px;
-                margin-top: 0px; padding-top: 30px;
-                text-align: center;
-                z-index: 0;
-            }
-            h2.h2-2_body1 {
-                color: #b3b3b3;
-                font-size: 40pt; font-weight: 900;
-                margin: 0;
-                padding: 0;
-                text-align: center;
-            }
-            h2.h2-3_body1 {
-                color: #b3b3b3;
-                font-size: 40pt; font-weight: 900;
-                margin: 0px; margin-bottom: 25px; margin-left: 465px;
-                padding-top: 20px;
-                text-align: left;
-            }
-            h3.h3-1_body1 {
-                color: #b3b3b3;
-                font-size: 20pt;
-                margin-left: 470px; margin-top: 0px; padding-top: 0px;
-                text-align: left;
-            }
-            img.img1_header1 {
-                height: 150px;
-                top: 10px;
-                padding: 0px; border: 5px solid blue;
-                position: absolute;
-                width: 200px;
-            }
-            img.img1_body1 {
-                height: 500px;
-                border: 5px solid black; padding: 0px;
-                margin-left: 250px; margin-top: 100px;
-                position: absolute;
-                width: 350px;
-            }
-            img.img2_body1 {
-                border: 5px solid black; padding: 0px;
-                height: 430px;
-                margin-left: 120px; margin-top: 750px;
-                position: absolute;
-                width: 630px;
-            }
-            img.img3_body1 {
-                height: 300px;
-                float: left;
-                padding: 50px 20px 80px 50px;
-                width: 400px;               
-            }
-            img.img4_body1 {
-                height: 100px;
-                padding: 10px;
-                width: 150px;
-            }
-            p.p1_body1 {
-                color: #b3b3b3;
-                font-size: 20pt; font-weight: 700;
-                line-height: 2;
-                margin-top: 0px; padding-top: 0px;
-                text-align: left;
-                white-space: pre;
-            }
-            p.p2_body1 {
-                color: #b3b3b3;
-                font-size: 15pt;
-                line-height: 1.9;
-                margin-left: 800px;
-                white-space: pre;
-            }
-            p.p3_body1 {
-                color: #b3b3b3;
-                font-size: 20pt;
-                clear: right;
-                padding-right: 30px;
-            }
-            p.p4_footer1 {
-                color: black;
-                font-size: 15pt;
-                margin-left: 200px;
-            }
-            p.p5_footer1 {
-                color: black;
-                font-size: 15pt;
-                margin-right: 200px;
-            }
-            p.p6_body1 {
-                color: #b3b3b3;
-                font-size: 20pt;
-                clear: right;
-                padding-right: 30px;
-            }
-            p.p7_body1 {
-                color: #b3b3b3;
-                font-size: 20pt; font-weight: 700;
-                line-height: 2;
-                margin-top: 0px; padding-top: 0px;
-                text-align: left;
-                position: absolute;
-                left: 800px;
-                top: 400px;
-            }
-            table.table_footer1 {
-                display: table;
-                margin-left: auto; margin-right: auto; margin-top: 40px;
-                width: 90%;
-            }
-            table.table1_header1 {
-                display: table;
-                width: 100%;
-            }
-            table.table2_header1 {
-                display: table;
-                margin-left: auto; margin-right: auto;
-                width: 50%;                   
-            }
-            table.table3_body1 {
-                border: solid; border-color: white; border-collapse: collapse;
-                display: table;
-                margin-left: auto; margin-right: auto;
-                width: 80%;
-            }
-            td.td1_footer1 {
-                color: black;
-                font-size: 15pt;
-                text-align: left;
-            }
-            td.td2_footer1 {
-                color: black;
-                font-size: 15pt;
-                text-align: left;
-            }
-            td.td3_footer1 {
-                color: black;
-                font-size: 15pt;
-                text-align: right;
-            }
-            td.td1_header1 {
-                color: black;
-                font-size: 25pt; font-weight: 900;
-                text-align: center;               
-            }
-            td.td2_header1 {
-                font-size: 20pt; font-weight: 900;  
-                padding-top: 20px; padding-right: 20px;
-                text-align: right;
-                vertical-align: text-top;               
-            }
-            td.td3_header1 {
-                color: blue; 
-                font-size: 15pt; font-weight: 900;
-                padding-bottom: 20px;
-                text-align: center;               
-            }
-            td.td4_body1 {
-                border: solid; border-color: white;
-                color: blue;
-                font-size: 15pt; font-weight: 600;
-                text-align: center;
-            }
-            td.td5_body1 {
-                border: solid; border-color: white;
-                color: blue;
-                font-size: 15pt; font-weight: 600;
-                padding: 10px;
-                text-align: left;
-            }
-            th.th1_body1 {
-                border: solid; border-color: white;
-                color: blue;
-                font-size: 20pt; font-weight: 900;
-                text-align: center;
-            }
-            tr.tr_footer1{
-                display: table-row;
-            }
-            tr.tr1_header1 {
-                display: table-row;
-            }
-            tr.tr2_header1 {
-                display: table-row;
-            }
-        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/about_us.css">
     </head>
     <body class="body1">
         <div class="div5_header1">
-            <header><a id="top"></a>
+            <header><a id="top"></a><!--Top of page Anchor-->
                 <table class="table1_header1">
                     <tr class="tr1_header1">
                         <td>
                             <a href="index.html">
                                 <img src="images/Solutions_Logo.png" alt="Solutions Machining Logo"
-                                     class="img1_header1">
+                                     class="img1_header1"><!--Solutions Machining Logo
+                                in the header portion of page. Linked to index.html
+                                when clicked.-->
                             </a>
                         </td>
                         <td class="td1_header1">
@@ -301,16 +34,18 @@
                         </td>
                         <td class="td2_header1">
                             <a class="a_phone_header1" href="tel:+13034518459">
-                                (303) 451-8459
+                                (303) 451-8459<!--Linked to prompt for communication
+                                               service when selected.-->
                             </a>
                         </td>
                     </tr>
                 </table>                
                 <div>
                     <nav>
-                        <ul class="drop_menu">
-                            <li><a href="index.html">HOME</a>
-                                <ul>
+                        <ul class="drop_menu"><!--Navigation bar drop starts here-->
+                            <li><a href="index.html">Home</a>
+                                <ul><!--Each drop tab will direct browser to an anchor
+                                    on the desired page.-->
                                     <li><a href="index.html#welcome">Welcome</a></li>
                                     <li><a href="index.html#services">Services</a></li> 
                                     <li><a href="index.html#location">Location</a></li>
@@ -334,18 +69,18 @@
                                     <li><a href="contact_us.html#location">Location</a></li>
                                     <li><a href="contact_us.html#careers">Careers</a></li>
                                 </ul>
-                            </li>
+                            </li><!--End of Navigation Bar.-->
                         </ul>
                     </nav>
                 </div>
             </header>
         </div>    
-        <div class="div4_body1"><a id="testimonials"></a>
+        <div class="div4_body1"><a id="testimonials"></a><!--Testimonials Anchor-->
             <h2 class='h2-1_body1'>Testimonials</h2>
             <p class='p1_body1'>
                 Since Solutions Machining, Inc. was founded
                 over 30 years ago it has been our pleasure to
-                fulfill our customers needs. We manufacture
+                fulfill our customer's needs. We manufacture
                 products for a wide range of industries, just a
                 few to list are: Auto, Water-jetting, Aerospace,
                 Optics/Laser, Gas & Oil and many more.
@@ -353,9 +88,9 @@
             <p class="p7_body1">LIST ALL OF THE TESTIMONIALS I ACQUIRE<br>
                 FOR THE SHOP OVER THE COURSE OF THE<br>
                 SEMESTER ON THE RIGHT SIDE COLUMN. RE-BALANCE<br>
-                TEXT IN COLUMNS!!!!<p>
+                TEXT IN COLUMNS!!!!<p><!--Continue to add Testimonials when obtained-->
         </div>
-        <div class="div2_body1"><a id="history"></a>
+        <div class="div2_body1"><a id="history"></a><!--History anchor point-->
             <h2 class="h2-2_body1">Our History</h2>        
             <img src="images/bridgeport.jpg" alt="Old_Bridgeport_Mill"
                  class="img1_body1">
@@ -364,18 +99,18 @@
             <p class="p2_body1">
                 Today we are an established, industry leading
                 full-service machine shop. Though it has not 
-                always been that way. Joe Porterfield founded 
+                always been this way. Joe Porterfield founded 
                 Solutions Machining over 30 years ago in his 
                 residential garage. Joe's garage was the corner
                 stone for our growing success today. When 
                 Joe Porterfield founded the company in Arvada,
                 Colorado, he bought two small manual machines. 
-                The machines he bought were, a single tablde
+                The machines he bought were, a single table
                 Bridgeport Mill and the other was a small six-inch
-                chuck extended bed LeBlond Lathe. We still have
+                chuck, extended bed, LeBlond Lathe. We still have
                 the Bridgeport Mill in the back of the shop as a
                 memorial to Joe's hard-work and dedication that
-                Solutions Machine was founded upon. (Yes it is 
+                Solutions Machine was founded upon. (Yes, it is 
                 still fully-functional!) These values of hard-work 
                 and honesty live on in the shop and are still at 
                 the core of our team today. 
@@ -385,18 +120,18 @@
                 Dale Williamson, a former employee with fifteen 
                 years of service, is now at the lead of our team 
                 as owner/manager. Dale has invested in and grown 
-                Solutions Machining considerably as we now service 
+                Solutions Machine considerably as we now service 
                 our customers with over ten CNC programmable 
                 machining centers from industry leading suppliers, 
                 such as <a href="https://us.dmgmori.com/" target="_blank">Mori-Seiki</a> and <a href="https://www.mazakusa.com/" target="_blank">Mazak</a>. We are still based
-                out of Arvada, Colorado and continue to serve 
+                out of Arvada, Colorado and we continue to serve 
                 multiple original customers. Customers that Joe
                 once had the pleasure servicing. Visit our "Contact Us" 
-                page to to schedule an in person tour of the 
+                page to schedule an in person tour of the 
                 shop and meet our team today!
             </p>
         </div>
-        <div class="div3_body1"><a id="community"></a>
+        <div class="div3_body1"><a id="community"></a><!--Community Anchor-->
             <h2 class="h2-3_body1">Our Community</h2>        
             <h3 class="h3-1_body1">Dale Williamson: Owner/Manager</h3>
             <img src="images/dale_williamson.jpg" alt="dale_williamson_photo"
@@ -404,21 +139,21 @@
             <p class="p3_body1">           
                 Hello and Thank You for your interest in our Team. My 
                 name is Dale Williamson, Owner/Manager of Solutions 
-                Machine, Inc. I'm a Colorado native and posses a deep 
-                appreciation for this State. In my younger years I was 
-                an avid outdoors man of many activities ranging from 
-                guiding raft trips to extended threw hiking. I have always 
-                had an inside entrepreneur drive as this is my third 
-                attempt at ownership. My past two attempts did not succeed 
-                though I was not willing to give up. A good entrepreneur 
+                Machine, Inc. I'm a Colorado native and possess a deep 
+                appreciation for this state. In my younger years I was 
+                an avid outdoors man of many activities, ranging from 
+                guiding raft trips to extended through hiking. I have always 
+                had an entrepreneur drive as this is my third attempt at 
+                business ownership. My past two attempts had not succeeded. 
+                Though, I was not willing to give up. A good entrepreneur 
                 is not discouraged by failure but learns from it.
             </p>            
             <p class="p6_body1">    
                 I have successfully owned and managed Solutions Machining
-                for over fifteen years now and I'm still gracious for 
+                for over fifteen years now. I'm still gracious for 
                 the opportunity to do so. It is my promise to my customers 
                 and employees that we will continue to be at the cutting 
-                edge of industry standards to meet and exceed their needs. 
+                edge of industry standards, to meet and exceed their needs. 
                 My employees are what make the difference here by 
                 comparison to other shops and I value each of them greatly. 
                 They are the driving force behind our excellent customer 
@@ -426,7 +161,7 @@
             </p>            
         </div>
         <div class="div6_body1">
-            <table class="table3_body1">
+            <table class="table3_body1"><!--Beginning of Crew Table-->
                 <caption class="caption1_body1"> An Inside View of Our Senior Team </caption>
                 <tr>
                     <th class="th1_body1">
@@ -465,7 +200,7 @@
                     <td class="td5_body1">
                         Hello and welcome to our <br />
                         team. I've been with <br/>
-                        solutions for over 20 years <br />
+                        Solutions for over 20 years <br />
                         and still enjoy the <br />
                         environment we have created. <br />
                     </td>
@@ -493,7 +228,7 @@
                         Good afternoon and welcome <br />
                         to our team! I'm originally <br />
                         from the mid-west where I <br />
-                        began machining and came <br />
+                        began machining. I came <br />
                         to Colorado for the friendly <br />
                         outdoor atmosphere. 
                     </td>
@@ -523,9 +258,9 @@
                         state of Louisiana. I had a<br />
                         dream to come to Colorado<br />
                         to experience the great<br />
-                        outdoors and Dale has helped<br />
+                        outdoors. Dale has helped<br />
                         me achieve that. Solutions<br />
-                        is by fare the most inviting<br />
+                        is by far the most inviting<br />
                         and innovative shop I've had<br/>
                         the opportunity to work for.<br/>
                         Thanks Dale!<br/>                                                      
@@ -535,7 +270,7 @@
                              class="img4_body1">
                     </td>
                 </tr>
-            </table>
+            </table><!--End of Crew Table-->
         </div>
         <div class="div3_footer1">
             <footer>
