@@ -1,6 +1,5 @@
 /*
 Name: Justin Strelka
-Course: CWB 110 470
 Website: Solutions Machining, Inc.
 File: contact_us.js
 Creation Date: 6/10/18
